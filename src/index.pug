@@ -5,5 +5,11 @@ head
   meta(name='viewport', content='width=device-width, initial-scale=1')
   title Empty project
 body
-  #app
+  nav.site-navbar
+    .nav-wrapper.container
+      a.brand-logo Vanilla
+      ul.right.hide-on-med-down
+        li: a(href="#") Home
+        li: a(href="#") About
+        li: a(href="#") Help
   script(src='index.js')
