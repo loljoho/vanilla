@@ -1,8 +1,17 @@
+@charset "UTF-8";
+
+// Custom Materialize Variables
+@import 'color-variables';
 @import 'variables';
+
+// Third Party Libraries
 @import '~materialize-css/sass/materialize';
 
+// Custom Variables
 $primary-color: white;
 $bg: black;
+
+// Custom Styles
 body {
   color: $primary-color;
   background-color: $bg;
